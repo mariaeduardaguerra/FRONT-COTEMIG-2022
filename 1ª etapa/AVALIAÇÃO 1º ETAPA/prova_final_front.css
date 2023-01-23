@@ -1,0 +1,38 @@
+table { width: 100%;
+height: 100%;
+background-color: #8493ad;
+border: solid 2px;
+border-color: black;
+}
+
+.vazio { width: 25%;
+background-color: #eaa416;
+}
+
+.titulo { width: 40%;
+height: 10%;
+background-color: #eaa416;
+text-align: left;
+font-size: 35px;
+padding: 5px;
+}
+
+#logo { text-align: right;
+}
+
+#placeholder { text-align: center;
+}
+
+#linha04 { height: 150px;
+background-color: #fcfc66;
+}
+
+#maiorlinha02 { height: 150px;
+}
+
+#logos { text-align: right;
+}
+
+.ultimalinha { height: 10%;
+background-color: #8a6db2;
+}

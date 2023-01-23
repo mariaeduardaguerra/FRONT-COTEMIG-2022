@@ -1,0 +1,708 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 200vh;
+}
+
+#topo {
+    background-color: black;
+    width: 100%;
+    height: 40px;
+    color: white;
+    padding-left: 60%;
+    line-height: 5vh;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+
+
+li {
+    cursor: pointer;
+}
+
+header {
+    height: 6vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    position: sticky;
+    top: 0;
+}
+
+header img {
+    cursor: pointer;
+    width: 200px;
+    padding-left: 10px;
+    display: flex;
+
+}
+
+header div {
+    display: inline-block;
+}
+
+#menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+    gap: 40px;
+    height: 6vh;
+    padding: 0;
+}
+
+#menu li {
+    list-style: none;
+    padding-right: 30px;
+    line-height: 40px;
+    font-family: "Lato",sans-serif;
+    color: white;
+    cursor: pointer;
+    font-weight: 650;
+    font-size: .875em;
+}
+
+#borda {
+    border-right: dashed white 1px;
+}
+
+#restrita::before {
+    content: url(https://www.cotemig.com.br/assets/img/icons/signin.svg);
+    padding-right: 10px;
+
+}
+
+#restrita {
+    padding-left: 5px;
+}
+
+#mainimg {
+    margin-top: -6vh;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    overflow: hidden;
+}
+
+#colegio {
+    display: block;
+    text-align: left;
+    font-family: "Lato",sans-serif;
+    font-weight: 800;
+    font-size: 2.5em;
+    color: white;
+    padding-left: 7cm;
+    padding-top: 3cm;
+    margin: 0;
+}
+
+#aqui {
+    display: block;
+    text-align: left;
+    color: white;
+    padding-left: 7cm;
+    font-family: "Lato",sans-serif;
+    font-weight: 500;
+    padding-bottom: 35px;
+    padding-top: 10px;
+}
+
+#mainimg p {
+    margin: 1em 0 0;
+    line-height: 26px;
+    font-size: 18px;
+    width: 37.5em;
+}
+
+.btn {
+    color: white;
+    background-color: #40aa0b;
+    padding: 15px 5em;
+    border: none;
+    border-radius: 8px;
+    font-family: "Lato",sans-serif;
+    font-size: .875em;
+    font-weight: 700;
+    cursor: pointer;
+    margin-left: 7cm;
+}
+
+.btn {
+    background-color: #40aa0b;
+    transition: 0.2s;
+}
+
+#escolha {
+    font-family: "Lato",sans-serif;
+    font-weight: 800;
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#profissionalizante {
+    font-family: "Lato",sans-serif;
+    color: #424242;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#texto {
+    padding-top: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#ul-escolha {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 14%;
+    padding-right: 14%;
+    margin-top: 5%;
+    gap: 15px;
+}
+
+#img-escolha-colegio {
+    background-image: url("https://www.cotemig.com.br/static/courseType/desktopimage-1643903692865.jpg");
+    height: 175px;
+    width: 284px;
+    border-radius: 8px;
+  
+}
+  
+#img-escolha-graduacoes {
+    background-image: url("https://www.cotemig.com.br/static/courseType/desktopimage-1621255560657.jpg");
+    height: 175px;
+    width: 284px;
+    border-radius: 8px;
+    
+}
+  
+#img-escolha-pos {
+    background-image: url("https://www.cotemig.com.br/static/courseType/desktopimage-1621252590289.jpg");
+    height: 175px;
+    width: 284px;
+    border-radius: 8px;
+    
+}
+  
+#img-escolha-curso {
+    background-image: url("https://www.cotemig.com.br/assets/img/banner/automacao-residencial-1140.jpg");
+    height: 175px;
+    width: 284px;
+    border-radius: 8px;
+}
+  
+.h3-maiores {
+    font-family: "Lato",sans-serif;
+    font-size: 22px;
+    font-weight: 795;
+    z-index: 0;
+    color: white;
+    padding-top: 110px;
+    padding-left: 15px;
+}
+  
+.h3-menores {
+    font-family: "Lato",sans-serif;
+    font-size: 22px;
+    font-weight: 795;
+    z-index: 0;
+    color: white;
+    padding-top: 137px;
+    padding-left: 15px;
+}
+
+.links {
+    text-decoration: none;
+    color: black;
+    font-family: "Lato",sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+#img-link-ensino-tecnico::before {
+    content: url(img-link-ensino-tecnico.png);
+    padding-right: 0;
+}
+
+#img-link-escola-referencia::before {
+    content: url(img-link-escola-referencia.png);
+    padding-right: 0;
+}
+
+#img-link-sistemas-informacao::before {
+    content: url(img-link-sistemas-informacao.png);
+    padding-right: 0;
+}
+
+#img-link-analise-desenvolvimento::before {
+    content: url(img-link-analise-desenvolvimento.png);
+    padding-right: 0;
+}
+
+#img-link-ciencia-computacao::before {
+    content: url(img-link-ciencia-computacao.png);
+    padding-right: 0;
+}
+
+#img-link-graduacao-data::before {
+    content: url(img-link-graduacao-data.png);
+    padding-right: 0;
+}
+
+#img-link-graduacao-desenvolvimento::before {
+    content: url(img-link-graduacao-desenvolvimento.png);
+    padding-right: 0;
+}
+
+#img-link-curso-livre::before {
+    content: url(img-link-curso-livre.png);
+    padding-right: 0;
+}
+
+
+
+.divs-imgs {
+    z-index: -1;
+    position: relative;
+}
+
+h3 {
+    font-family: "Lato",sans-serif;
+    font-size: 22px;
+    font-weight: 900;
+    z-index: 0;
+}
+
+#unidades {
+    font-family: "Lato",sans-serif;
+    font-weight: 800;
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#o-cotemig {
+    font-family: "Lato",sans-serif;
+    color: #424242;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#texto02 {
+    padding-top: 5%;
+}
+
+#imgs-unidades {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 13%;
+    padding-right: 15%;
+    margin-top: 5%;
+    cursor: pointer;      
+}
+
+h4 {
+    font-family: "Lato",sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    z-index: 0;
+    margin-top: 13px;
+}
+
+.endereco {
+    font-family: "Lato",sans-serif;
+    font-size: 16px;
+    color: #424242;
+    margin-top: 15px;
+
+}
+
+.icon-location::before {
+    content: url(https://www.cotemig.com.br/assets/img/icons/location.svg);
+    padding-right: 5px;
+}
+
+.p02 {
+    margin-top: 1px;
+    padding-left: 30px;
+}
+
+.img-choose02 {
+    border-radius: 13px;
+    height: 200px;
+    padding: 8px;
+}
+
+#atendimento {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#central-atendimento {
+    color:black;
+    font-family: "Lato",sans-serif;
+    font-size: 20px;
+}
+
+#tel {
+    color: #40aa0b;
+    text-decoration: none;
+    font-family: "Lato",sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+#tel::before {
+    content: url(https://www.cotemig.com.br/assets/img/icons/c-all.svg);
+    padding-right: 15px;
+
+}
+
+#texto03 {
+    text-align: center;
+}
+
+#noticias {
+    font-family: "Lato",sans-serif;
+    font-weight: 800;
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 70px;
+}
+
+#ul-imgs-noticias {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-top: 5%;
+    cursor: pointer;
+    color: white;
+}
+
+#img-noticias-documentos {
+    background-image: url("https://www.cotemig.com.br/static/blog/mobileimagefull-1653342958410.png");
+    height: 324px;
+    width: 263.19px;
+    border-radius: 8px;
+  }
+  
+#img-noticias-confira {
+    background-image: url("//www.cotemig.com.br/static/blog/mobileimagefull-1651240942557.png");
+    height: 324px;
+    width: 263.19px;
+    border-radius: 8px;
+  }
+  
+#img-noticias-cotemig {
+    background-image: url("https://www.cotemig.com.br/static/blog/mobileimagefull-1647277290170.jpg");
+    height: 324px;
+    width: 263.19px;
+    border-radius: 8px;
+  }
+  
+#img-noticias-connect {
+    background-image: url("https://www.cotemig.com.br/static/blog/mobileimagefull-1641562463686.png");
+    height: 324px;
+    width: 263.19px;
+    border-radius: 8px;
+  }
+  
+.links03 {
+      text-decoration: none;
+      font-family: "Lato",sans-serif;
+      font-size: 14.5px;
+      font-weight: 550;
+      display: flex;
+      justify-content: space-between;
+      padding-top: 235px;
+      padding-left: 17px;
+      letter-spacing: 0.5px;
+      color: white;
+      
+  }
+  
+.p-noticias {
+      font-style: italic;
+      font-size: 11px;
+      padding-top: 5px;
+      color: white;
+      font-family: "Lato",sans-serif;
+      padding-left: 17px;
+      padding-top: 1px;
+      
+  }
+  
+.links03-02 {
+    padding-top: 219px;
+  }
+
+
+.links03 {
+    text-decoration: none;
+    font-family: "Lato",sans-serif;
+    font-size: 14.5px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+}
+
+.p-noticias {
+    font-family: "Lato",sans-serif;
+    font-size: 13px;
+}
+
+.img-choose03 {
+    border: none;
+    border-radius: 8px;
+    position: relative;
+}
+
+footer {
+    display: block;
+    background-color: #151515;
+    margin-top: 50px;
+    font-family: "Lato",sans-serif;
+    height: 455px;
+}
+
+.titulos-footer {
+    color: white;
+    font-family: "Lato",sans-serif;
+    font-size: 18px;
+    padding-bottom: 14px;
+}
+
+.links-footer {
+    text-decoration: none;
+    color: #bdbdbd;
+    font-size: 14px;
+}
+
+#div-01-footer {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-top: 5%;
+    cursor: pointer;
+    padding-top: 45px;
+}
+
+.titulo-02-footer {
+    color: white;
+    font-size: 16px;
+    padding-bottom: 17px;
+}
+
+#e-um-lugar {
+    color: #bdbdbd;
+    font-size: 16px;
+    padding-bottom: 23px;
+}
+
+#btn02 {
+    color: white;
+    background-color: #40aa0b;
+    padding: 15px 6.56em;
+    border: none;
+    border-radius: 8px;
+    font-family: "Lato",sans-serif;
+    font-size: .875em;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+}
+
+#div-footer-call {
+
+}
+
+.uls-01 {
+
+}
+
+.lis-01 {
+    padding-bottom: 12px;
+}
+
+.p-noticias {
+    font-style: italic;
+    font-size: 11px;
+    padding-top: 5px;
+}
+
+#p-logo-footer {
+    color: white;
+    font-size: 12px;
+    padding-top: 20px;
+}
+
+#div-logo-footer {
+    padding-top: 40px;
+    padding-left: 5.3cm;
+}
+
+#div-02-footer {
+    display: flex;
+    
+    
+}
+
+#ul-colegio-footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 65px;
+}
+
+#ul-faculdade-footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 65px;
+}
+
+#titulo-colegio {
+    color: white;
+    font-family: "Lato",sans-serif;
+    font-size: 16px;
+    padding-bottom: 25px;
+
+}
+
+#div-colegio-footer {
+    padding-top: 40px;
+    margin-left: 180px;
+    margin-right: 100px;
+ 
+}
+
+.links-sociais-footer {
+    text-decoration: none;
+    color: #424242;
+    font-size: 11px;
+}
+
+#facebook {
+    background-color: #4460a0;
+}
+
+#div-faculdade-footer {
+    padding-top: 40px;
+    margin-left: 2px;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #424242;
+    margin-top: 20px;
+}
+
+.textos-noticias {
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#arrow-up {
+    background: url(/assets/img/icons/arrow-up.svg) #40aa0b no-repeat center center/50%;
+}
+

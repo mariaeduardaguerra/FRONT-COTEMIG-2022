@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Cotemig: Sua revolução começa aqui</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styleCotemig.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+
+    <div id="topo">Ligue agora: (31) 3213-8666</div>
+
+    <header>
+
+        <div><img src="https://www.cotemig.com.br/assets/img/logo-white-x.png" id="logo"></div>
+
+        <ul id="menu">
+            <li>Home</li>
+            <li>Nossos Cursos</li>
+            <li>Unidades</li>
+            <li>Blog</li>
+            <li>Sobre Nós</li>
+            <li id="borda">Mais</li>
+            <li id="restrita">Área Restrita</li>
+        </ul>
+
+    </header>
+
+    <div>
+
+        <img id="mainimg" src="https://www.cotemig.com.br/static/banner/desktopimagefull-1650984096573.png">
+
+        <h2 id="colegio">COLÉGIO COTEMIG</h2>
+            <p id="aqui">Aqui, o comum é ser INOVADOR.</p>
+            <button class="btn">CLIQUE AQUI E CONHEÇA</button>
+  
+    </div>
+
+    <section>
+        <div id="texto">
+            <h2 id="escolha">Escolha como você vai mudar o mundo</h2>
+            <p id="profissionalizante">Do Ensino Médio Profissionalizante à Pós-graduação, o COTEMIG oferece o que </br>você precisa para fazer a diferença - e protagonizar a história.</p>
+        </div>
+    </section>
+
+    <ul id="items">
+
+        <li>
+            <div class="divs-imgs">
+                <img class="img-choose" src="https://www.cotemig.com.br/static/courseType/desktopimage-1643903692865.jpg" width="290px">
+                <h3>Colégio Técnico em <br> Informática</h3>
+            </div>
+            <div>
+            <p>
+            <a class="links" href="https://www.cotemig.com.br/ensino/colegio-tecnico-em-informatica/curso/ensino-medio-+-tecnico-em-informatica">Ensino Médio + Técnico em <br> Informática</a><br>
+            <a class="links" href="https://www.cotemig.com.br/ensino/colegio-tecnico-em-informatica/curso/escola-de-referencia-google">Escola de Referêrencia Google</a>
+            </p>
+            </div>
+        </li>
+
+        <li>
+            <div class="divs-imgs">
+                <img class="img-choose" src="https://www.cotemig.com.br/static/courseType/desktopimage-1621255560657.jpg" width="290px">
+                <h3>Graduações</h3>
+            </div>
+            <div>
+                <p>
+                  <a class="links" href="https://www.cotemig.com.br/ensino/graduacoes/curso/sistemas-de-informacao">Sistemas de Informação</a> <br>
+                  <a class="links" href="https://www.cotemig.com.br/ensino/graduacoes/curso/analise-e-desenvolvimento-de-sistemas">Análise e Desenvolvimento <br> de Sistemas</a> <br>
+                  <a class="links" href="https://www.cotemig.com.br/ensino/graduacoes/curso/ciencia-da-computacao">Ciência da Computação</a>
+                </p>
+            </div>
+        </li>
+
+        <li>
+            <div class="divs-imgs">
+                <img class="img-choose" src="https://www.cotemig.com.br/static/courseType/desktopimage-1621252590289.jpg" width="290px">
+                <h3>Pós-graduações</h3>
+            </div>
+            <div>
+                <p>
+                  <a class="links" href="https://www.cotemig.com.br/ensino/pos-graduacoes/curso/pos-graduacao-em-data-science-e-big-data">Pós-graduação em Data <br> Science e Big Data</a> <br>
+                  <a class="links" href="https://www.cotemig.com.br/ensino/pos-graduacoes/curso/pos-graduacao-em-desenvolvimento-full-stack-mobile">Pós-graduação em <br> Desenvolvimento Full Stack <br> Mobile</a>
+                </p>
+            </div>
+        </li>
+
+        <li>
+            <div class="divs-imgs">
+                <img class="img-choose" src="https://www.cotemig.com.br/assets/img/banner/automacao-residencial-1140.jpg" width="290px">
+                <h3>Curso de média e curta <br> duração</h3>
+            </div>
+            <div class="divs-imgs">
+                <p>
+                  <a class="links" href="https://www.cotemig.com.br/ensino/cursos-de-media-e-curta-duracao/curso/curso-livre-em-automacao-residencial">Curso livre em Automação <br> Residencial</a>
+                </p>
+            </div>
+        </li>
+
+    </ul>
+
+    <section>
+        <div id="texto02">
+            <h2 id="unidades">Nossas Unidades</h2>
+            <p id="o-cotemig">O <b>COTEMIG</b> tem duas unidades de ensino em Belo Horizonte para quem quer se profissionalizar em <br> tecnologia com uma base inovadora, inspiradora e de qualidade, além de uma central administrativa.</p>
+        </div>
+    </section>
+
+
+
+
+    <ul id="imgs-unidades">
+
+        <li>
+            <div class="divs-imgs02">
+                <img class="img-choose02" src="https://www.cotemig.com.br/assets/img/units/barroca-unidades.jpg" width="382px">
+                <h4>Colégio Barroca / Faculdade Cotemig</h4>
+            </div>
+            <div>
+                <p class="endereco">Rua Santa Cruz, 546 - Bairro Barroca</p> <br>
+                <p class="endereco p02">Belo Horizonte - CEP.:30431-228</p>
+            </div>
+        </li>
+
+        <li>
+            <div class="divs-imgs02">
+                <img class="img-choose02" src="https://www.cotemig.com.br/assets/img/units/floresta-unidades.jpg" width="382px">
+                <h4>Colégio Floresta</h4>
+            </div>
+            <div>
+                <p class="endereco">Rua Itajubá, 223 - Bairro Floresta</p> <br>
+                <p class="endereco p02">Belo Horizonte - CEP.:30150-380</p>
+            </div>
+        </li>
+
+        <li>
+            <div class="divs-imgs02">
+                <img class="img-choose02" src="https://www.cotemig.com.br/assets/img/units/escritorio-central.jpg" width="382px">
+                <h4>Escritório Central</h4>
+            </div>
+            <div>
+                <p class="endereco">Rua Litargírio, 25 - Bairro Grajaú</p> <br>
+                <p class="endereco p02">Belo Horizonte - CEP.:30431-232</p>
+            </div>
+        </li>
+        </ul>
+
+    <div id="atendimento">
+        <h4 id="central-atendimento" >Central de Atendimento</h4>
+        <a id="tel" href="tel:553132138666">(31) 3213.8666</a>
+    </div>
+    
+    <section>
+        <div id="texto03">
+            <h2 id="noticias">Notícias e Novidades</h2>
+        </div>
+    </section>
+
+
+
+
+
+
+    <ul id="imgs-noticias">
+
+        <li>
+            <div class="divs-imgs03">
+                <img class="img-choose03" src="https://www.cotemig.com.br/static/blog/mobileimagefull-1653342958410.png" width="278px"> <br>
+                <a class="links03" href="https://www.cotemig.com.br/blog/documentos-institucionais-da-faculdade-cotemig">DOCUMENTOS <br> INSTITUCIONAIS DA <br> FACULDADE COTEMIG</a>
+                <p class="p-noticias">Em 23 de maio de 2022</p>
+            </div>
+
+        </li>
+
+        <li>
+            <div class="divs-imgs03">
+                <img class="img-choose03" src="https://www.cotemig.com.br/static/blog/mobileimagefull-1651240942557.png" width="278px"> <br>
+                <a class="links03" href="https://www.cotemig.com.br/blog/documentos-institucionais-da-faculdade-cotemig">CONFIRA OS CARGOS DO <br> SETOR DE TECNOLOGIA EM <br> ASCENSÃO NO BRASIL</a>
+                <p class="p-noticias">Em 29 de Abril de 2022</p>
+            </div>
+
+        </li>
+
+        <li>
+            <div class="divs-imgs03">
+                <img class="img-choose03" src="https://www.cotemig.com.br/static/blog/mobileimagefull-1647277290170.jpg" width="278px"> <br>
+                <a class="links03" href="https://www.cotemig.com.br/blog/documentos-institucionais-da-faculdade-cotemig">COTEMIG EXPANDE SEU <br> ENSINO INOVADOR AO <br> FIRMAR PARCERIA COM O <br> CNSD</a>      
+                <p class="p-noticias">Em 14 de Março de 2022</p>
+            </div>
+
+        </li>
+
+        <li>
+            <div class="divs-imgs03">
+                <img class="img-choose03" src="https://www.cotemig.com.br/static/blog/mobileimagefull-1641562463686.png" width="278px"> <br>
+                <a class="links03" href="https://www.cotemig.com.br/blog/documentos-institucionais-da-faculdade-cotemig">CONNECT: O NOVO MODELO <br> DE ENSINO DA FACULDADE <br> COTEMIG PARA OS NOVOS <br> TEMPOS</a>  
+                <p class="p-noticias">Em 7 de Janeiro de 2022</p>
+            </div>
+  
+        </li>
+        </ul>
+
+
+    <footer>
+
+            <div id="div-01-footer">
+
+            <ul>
+                <li>
+                    <h5 class="titulos-footer">Sobre Nós</h5>                    
+                </li>
+                <li>
+                    <a class="links-footer" href="https://www.cotemig.com.br/quem-somos">Quem Somos</a>
+                </li>
+                <li>
+                    <a class="links-footer" href="https://www.cotemig.com.br/unidades">Unidades</a>
+                </li>
+                <li>
+                    <a class="links-footer" href="https://www.cotemig.com.br/contato">Ouvidoria</a>
+                </li>
+                <li>
+                    <a class="links-footer" href="https://www.cotemig.com.br/blog">Blog</a>
+                </li>
+            </ul>
+
+
+            <ul>
+                <li>
+                    <h5 class="titulos-footer">Nossos Cursos</h5>
+                <li>
+                    <a class="links-footer" href="https://www.cotemig.com.br/ensino/colegio-tecnico-em-informatica">Colégio Técnico em Informática</a>
+                </li>
+                <li>
+                    <a class="links-footer"href="https://www.cotemig.com.br/ensino/graduacoes">Graduações</a>
+                </li>
+                <li>
+                    <a class="links-footer" href="https://www.cotemig.com.br/ensino/pos-graduacoes">Pós-graduações</a>
+                </li>
+                <li>
+                    <a class="links-footer" href="https://www.cotemig.com.br/ensino/cursos-de-media-e-curta-duracao">Cursos de média e longa duração</a>
+                </li>
+            </ul>
+
+            <ul>
+                <li>
+                    <h5 class="titulos-footer">Outros</h5>
+                </li>
+                <li>
+                    <a class="links-footer" href="https://www.cotemig.com.br/termos-de-uso">Termos de Uso</a>
+                </li>
+                <li>
+                    <a class="links-footer" href="https://www.cotemig.com.br/carreiras">Trabalhe Conosco</a>
+                </li>
+                <li>
+                    <a class="links-footer" href="https://www.cotemig.com.br/cadastro-de-vagas">Divulgue vagas de estágio</a>
+                </li>
+                <li>
+                    <a class="links-footer" href="https://tourmkr.com/g/G1R0NX06PR">Tour virtual</a>
+                </li>
+            </ul>
+
+
+
+        </div>
+
+    </footer>
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 200vh;
+}
+
+#topo {
+    background-color: black;
+    width: 100%;
+    height: 40px;
+    color: white;
+    padding-left: 60%;
+    line-height: 5vh;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+
+
+li {
+    cursor: pointer;
+}
+
+header {
+    height: 6vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    position: sticky;
+    top: 0;
+}
+
+header img {
+    cursor: pointer;
+    width: 200px;
+    padding-left: 10px;
+    display: flex;
+
+}
+
+header div {
+    display: inline-block;
+}
+
+#menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+    gap: 40px;
+    height: 6vh;
+    padding: 0;
+}
+
+#menu li {
+    list-style: none;
+    padding-right: 30px;
+    line-height: 40px;
+    font-family: "Lato",sans-serif;
+    color: white;
+    cursor: pointer;
+    font-weight: 650;
+    font-size: .875em;
+}
+
+#borda {
+    border-right: dashed white 1px;
+}
+
+#restrita::before {
+    content: url(https://www.cotemig.com.br/assets/img/icons/signin.svg);
+    padding-right: 10px;
+
+}
+
+#restrita {
+    padding-left: 5px;
+}
+
+#mainimg {
+    margin-top: -6vh;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    overflow: hidden;
+}
+
+#colegio {
+    display: block;
+    text-align: left;
+    font-family: "Lato",sans-serif;
+    font-weight: 800;
+    font-size: 2.5em;
+    color: white;
+    padding-left: 7cm;
+    padding-top: 3cm;
+    margin: 0;
+}
+
+#aqui {
+    display: block;
+    text-align: left;
+    color: white;
+    padding-left: 7cm;
+    font-family: "Lato",sans-serif;
+    font-weight: 500;
+    padding-bottom: 35px;
+    padding-top: 10px;
+}
+
+#mainimg p {
+    margin: 1em 0 0;
+    line-height: 26px;
+    font-size: 18px;
+    width: 37.5em;
+}
+
+.btn {
+    color: white;
+    background-color: #40aa0b;
+    padding: 15px 5em;
+    border: none;
+    border-radius: 8px;
+    font-family: "Lato",sans-serif;
+    font-size: .875em;
+    font-weight: 700;
+    cursor: pointer;
+    margin-left: 7cm;
+}
+
+.btn {
+    background-color: #40aa0b;
+    transition: 0.2s;
+}
+
+#escolha {
+    font-family: "Lato",sans-serif;
+    font-weight: 800;
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#profissionalizante {
+    font-family: "Lato",sans-serif;
+    color: #424242;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#texto {
+    padding-top: 10%;
+}
+
+#items {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-top: 5%;
+}
+
+.img-choose {
+    border-radius: 13px;
+    height: 175px;
+    padding: 4px;
+}
+
+.links {
+    text-decoration: none;
+    color: black;
+    font-family: "Lato",sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+}
+
+.divs-imgs {
+    z-index: -1;
+    position: relative;
+}
+
+h3 {
+    font-family: "Lato",sans-serif;
+    font-size: 22px;
+    font-weight: 900;
+    z-index: 0;
+}
+
+#unidades {
+    font-family: "Lato",sans-serif;
+    font-weight: 800;
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#o-cotemig {
+    font-family: "Lato",sans-serif;
+    color: #424242;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#texto02 {
+    padding-top: 5%;
+}
+
+#imgs-unidades {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-top: 5%;
+    cursor: pointer;      
+}
+
+h4 {
+    font-family: "Lato",sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    z-index: 0;
+    margin-top: 13px;
+}
+
+.endereco {
+    font-family: "Lato",sans-serif;
+    font-size: 16px;
+    color: #424242;
+    margin-top: 15px;
+}
+
+.p02 {
+    margin-top: 1px;
+}
+
+.img-choose02 {
+    border-radius: 13px;
+    height: 200px;
+    padding: 4px;
+}
+
+#atendimento {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#central-atendimento {
+    color:black;
+    font-family: "Lato",sans-serif;
+    font-size: 20px;
+}
+
+#tel {
+    color: #40aa0b;
+    text-decoration: none;
+    font-family: "Lato",sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+#texto03 {
+    text-align: center;
+}
+
+#noticias {
+    font-family: "Lato",sans-serif;
+    font-weight: 800;
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 70px;
+}
+
+#imgs-noticias {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-top: 5%;
+    cursor: pointer;
+}
+
+.links03 {
+    text-decoration: none;
+    color: black;
+    font-family: "Lato",sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+}
+
+.p-noticias {
+    font-family: "Lato",sans-serif;
+    font-size: 13px;
+}
+
+.img-choose03 {
+    border: none;
+    border-radius: 8px;
+}
+
+footer {
+    display: block;
+    background-color: black;
+    margin-top: 50px;
+    font-family: "Lato",sans-serif;
+    height: 455px;
+}
+
+.titulos-footer {
+    color: white;
+}
+
+.links-footer {
+    text-decoration: none;
+    color: #bdbdbd;
+}
+
+#div-01-footer {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-top: 5%;
+    cursor: pointer;
+}

@@ -1,0 +1,37 @@
+.vazio { width: 175px;}
+
+#titulo { text-align: center;
+font-size: 35px; }
+
+table { width: 100%; }
+
+#cabecalho { border: solid 2px;
+border-radius: 25px;
+background: #ebc034; }
+
+.branco { width: 10%; 
+border: solid;}
+
+#texto { width: 25%;
+background-color: #72a3f2;
+text-align: left;
+padding: 0px; 
+font-size: 20px; }
+
+.azul { background-color: #72a3f2; }
+
+.roxo { background-color: #9670e6; }
+
+#corpo { height: 84%;
+margin-top: 1%; 
+text-align: center; }
+
+.metade { height: 350px; 
+width: 30%;}
+
+.ultimo { height: 200px; }
+
+#tab { height: 300px; 
+width: 450px;}
+
+.menor { width: 12%; }

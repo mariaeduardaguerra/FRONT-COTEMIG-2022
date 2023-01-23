@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+}
+
+li {
+    display: inline-block;
+    padding: 15px 15px;
+    font-size: 1.3em;
+    cursor: pointer;
+    font-family: "Poppings",Arial,sans-serif;
+}
+
+h1 {
+    display: inline-block;
+    padding: 0;
+    margin-left: 10%;
+    margin-top: 20px;
+    font-family: "Poppings",Arial,sans-serif;
+    cursor: pointer;
+    font-weight: 900;
+}
+
+ul {
+    display: inline-block;
+    margin-left: 38%;
+}
+
+#azul {
+    background-color: #77b7ff;
+    width: 36.5%;
+    height: 65vh;
+    top: 0;
+    right: 0;
+    z-index: -3;
+    position: absolute;
+}
+
+#hello {
+    font-family: "Poppings",Arial,sans-serif;
+    font-size: 0.8em;
+    font-weight: bolder;
+    color: #589deb;
+    margin-left: 10%;
+    margin-top: 100px;
+}
+
+b {
+    font-family: "Poppings",Arial,sans-serif;
+    font-size: 2em;
+    font-weight: 900;
+    color: #589deb;   
+}
+
+span {
+    font-family: "Poppings",Arial,sans-serif;
+    font-size: 2em;
+    font-weight: 900;
+    margin-left: 10%;
+}
+
+br {
+    margin-left: 10%;
+}
+
+#freelance {
+    font-family: "Poppings",Arial,sans-serif;
+    font-size: 1em;
+    font-weight: bolder;
+    color: black;
+    margin-left: 10%;
+}
+
+.btn {
+    font-family: "Poppings",Arial,sans-serif;
+    font-size: 0.8em;
+    color: #589deb;
+    border: solid 1px;
+    border-radius: 0.3em;
+    margin-left: 10%;
+}
+
+img {
+    width: 900px;
+    height: 600px;
+    position: absolute;
+    left: 650px;
+    bottom: 200px;
+}
+
+div + img {
+    width: 50%;
+    position: absolute;
+    z-index: -2;
+    float: right;
+    top: 12%;
+    right: 20%;
+    cursor: pointer;
+}

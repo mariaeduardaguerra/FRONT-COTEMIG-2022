@@ -1,0 +1,38 @@
+#tabela02 { height: 500px;
+
+}
+
+.espaco { border:8px solid white;
+background-color: #FFFFFF;
+}
+
+
+
+.semborda { border:0px solid red;
+border-radius:25px;
+}
+
+.cabecalho {
+border:1px solid black;
+border-radius:25px;
+background-color: #A59BE6;
+font-size: 30px;
+}
+
+.azul { border:8px solid white;
+background-color: #677FF7;
+text-align: center 
+}
+
+.amarelo { border:8px solid white;
+background-color: #FFFF99; 
+}
+
+.branco { border:2px solid black;
+background-color: #FFFFFF; 
+}
+
+
+
+
+
