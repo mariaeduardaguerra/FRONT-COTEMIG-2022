@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Página de Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='login.css'>
+    <script src='login.js'></script>
+</head>
+
+<body>
+    <main class="container">
+        <h2>Login</h2>
+        <form action="">
+            <div class="input-field">
+                <i class="fa fa-user icon"></i>
+                <input type="email" name="username" id="username" placeholder="Seu usuário..." required>
+                <div class="underline"></div>
+            </div>
+            <div class="input-field">
+                <i class="fa fa-key icon"></i>
+                <input type="password" name="password" id="password" placeholder="Sua senha..." required>
+                <!-- <img id="olho" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABDUlEQVQ4jd2SvW3DMBBGbwQVKlyo4BGC4FKFS4+TATKCNxAggkeoSpHSRQbwAB7AA7hQoUKFLH6E2qQQHfgHdpo0yQHX8T3exyPR/ytlQ8kOhgV7FvSx9+xglA3lM3DBgh0LPn/onbJhcQ0bv2SHlgVgQa/suFHVkCg7bm5gzB2OyvjlDFdDcoa19etZMN8Qp7oUDPEM2KFV1ZAQO2zPMBERO7Ra4JQNpRa4K4FDS0R0IdneCbQLb4/zh/c7QdH4NL40tPXrovFpjHQr6PJ6yr5hQV80PiUiIm1OKxZ0LICS8TWvpyyOf2DBQQtcXk8Zi3+JcKfNafVsjZ0WfGgJlZZQxZjdwzX+ykf6u/UF0Fwo5Apfcq8AAAAASUVORK5CYII="/>-->
+                <div class="underline"></div>
+            </div>
+
+            <div id="div-logar">
+                <input type="submit" value="Usuário">
+                <input type="submit" value="Administrador">
+            </div>
+        </form>
+
+        <div id="div-checkbox">
+            <input id="input-checkbox" type="checkbox">
+            <p>Manter-me logado</p>
+        </div>
+        <div id="div-forgot">
+            <p><a href="">Esqueceu a senha?</a></p>
+        </div>
+
+        <div id="div-cadastro">
+            <p id="p-cadastro">Ainda não tem conta?</p>
+            <button><a href="">Cadastre-se</a></button>
+        </div>
+    </main>
+</body>
+
+</html>
